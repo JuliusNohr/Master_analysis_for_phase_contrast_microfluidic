@@ -5,6 +5,13 @@ The code is designed to run on a Jupiter Lab with Python ipkernel3.
 The purpose of this script is the controling of a pipeline analysing Phase contrast timelapse images from microfluidic research on Synechocystis sp. PCC 6803. 
 It was designed working with an Omero server as data storage. 
 
+
+The Starter.ipynb creates a needed folder structure inside the Jupiter Lab for running the pipeline.
+To use this script, simply place it in your main folder where you want the pipeline to work and run it ones.
+
+The recursive_delete.ipynb delets folders backwards in the system, enableing the user to also create folders that are not empty. This is usefull when having many subfolders. This action can not be redone.
+To use this script, place it in the folder that needs to be deleted. Run the script. Afterwards there will be only empty folders in that folder. Delete those and the script manually and you can delete the folder.
+
 MIT License
 
 Copyright (c) 2025 Julius
